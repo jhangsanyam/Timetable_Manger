@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+**Project README File**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Timetable Manager
 
-## Available Scripts
+Welcome to the Timetable Manager project! This project is designed to assist users in efficiently managing their schedules, aligning them with their college timetable, and tracking attendance percentages.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployed Site](#deployed-site)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Timetable Manager is a versatile tool developed to streamline the process of organizing your daily academic routine. It allows users to create, modify, and adhere to a personalized timetable that syncs with their college classes. Beyond scheduling, the application also includes an attendance tracker, which calculates and displays the attendance percentage for each subject based on recorded attendance.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create a customized timetable that reflects your college class schedule.
+- Manage and modify your timetable as per your requirements.
+- Record your attendance for each class, marking them as attended or missed.
+- Monitor the attendance percentage for each subject in real-time.
+- Visualize attendance data through informative charts and graphs.
+- Stay organized with your daily class timings and subjects visible at a glance.
+- Change password with the help of OTP for enhanced security.
+- Securely sign up and log in using Google authentication.
+- Safeguard user passwords through encryption and hashing.
 
-### `npm run build`
+## Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To run and understand Timetable_Manager, you will need the following:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- React
+- JavaScript
+- MongoDB
+- Mongoose
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Follow these steps to get the Timetable Manager up and running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository and navigate to the project directory.
+$ git clone []
+$ cd timetable-manager
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install the required dependencies for the frontend.
+$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the frontend by running:
+$ npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open a new terminal window and navigate to the backend directory:
+$ cd backend
 
-## Learn More
+5. Create an environment file named `.env` in the backend directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Add the following variables to your `.env` file, replacing the placeholders with actual values:
+    DATABASE_ACCESS=your_mongodb_database_url
+    CLIENT_ID=your_google_client_id
+    MY_EMAIL=your_email
+    MY_PASSWORD=your_app_password
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Install the required dependencies for the backend:
+$ npm install
 
-### Code Splitting
+8. Start the backend server:
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Now your project is up and running, with the frontend accessible at the specified port and the backend serving the necessary data.
 
-### Analyzing the Bundle Size
+## Deployed Site
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Access the Timetable Manager at: ()
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or assistance, contact: sanyamjhang9@gmail.com.
